@@ -1,92 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
     
-}
-
-h2{
-    color: blue;
-}
-
-
-.profile{
-    /* border: 2px solid red; */
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-.profile .profile-img img{
-       border-radius: 50%;
-}
-
-
-.repo-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 20px;
-    width: 100vw;
-}
-
-.repo-list .single-repo {
-    border: 2px solid black;
-    width: 49%;
-    box-sizing: border-box; /* Include border in width calculation */
-    padding: 20px; /* You can uncomment this line if you want padding */
-}
-
-
-.repo-list .single-repo p{
-      background-color: blue;
-      border-radius: 5px;
-      padding: 7px;
-      color: #fff;
-      
-}
-
-.repo-list .single-repo .lang{
-     display: flex;
-     flex-wrap: wrap;
-     gap: 10px;
-}
-
-.repo-list .single-repo h4{
-        margin-bottom: 20px;
-}
-
-/* Add this loader CSS */
-.loader {
-    border: 8px solid #f3f3f3;
-    border-top: 8px solid #3498db;
+  }
+  
+  section {
+  }
+  
+  h1 {
+    padding: 20px 0;
+  }
+  
+  form {
+  }
+  
+  img {
+    margin-top: 20px;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    animation: spin 1s linear infinite;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -25px;
-    margin-left: -25px;
-    display: none; 
-
   }
   
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+  a {
+    color: #3D7B74;
   }
-
-  .pagination {
-    display: flex;
-    margin-top: 10px;
-    justify-content: center;
-}
-
-.pagination button {
-    margin: 0 5px;
-    cursor: pointer;
-}
-  
